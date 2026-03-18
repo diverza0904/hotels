@@ -1,1 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Narayan Palace - Premium Rooms & Fine Dining in Ajeetgarh</title>
+  <meta name="description" content="Experience luxury at Hotel Narayan Palace. View our premium room gallery and HD quality food images. Book your stay with pool view and complimentary breakfast.">
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.hotelnarayanpalace.com/">
+  <meta property="og:title" content="Hotel Narayan Palace - Premium Rooms & Fine Dining">
+  <meta property="og:description" content="3-star hotel with pool, free parking & premium dining. View our HD gallery of rooms and food.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1200">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.hotelnarayanpalace.com/">
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts (Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <!-- Lightbox2 for image gallery -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Sticky header with CTA -->
+  <header class="sticky-header">
+    <div class="container header-flex">
+      <a href="/" class="logo">Hotel Narayan Palace <span class="star-rating"><i class="fas fa-star"></i> 4.3 (677)</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#rooms">Rooms</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#dining">Dining</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <a href="#booking" class="btn btn-primary header-cta">Check Availability <i class="fas fa-arrow-right"></i></a>
+      <button class="mobile-menu-toggle" aria-label="Menu" id="mobileMenuToggle"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
 
+  <main>
+    <!-- HERO SECTION with premium visuals -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Experience Luxury at <span class="highlight">Hotel Narayan Palace</span></h1>
+          <p class="subheadline">Premium rooms with pool views, HD quality dining, and 5-star amenities in the heart of Ajeetgarh. Rated 4.3 by 677 guests.</p>
+          <div class="hero-cta">
+            <a href="#booking" class="btn btn-primary btn-large">Book Premium Suite <i class="fas fa-calendar-alt"></i></a>
+            <a href="#gallery" class="btn btn-outline">View Gallery</a>
+          </div>
+          <!-- trust badges -->
+          <div class="trust-bar">
+            <span><i class="fas fa-check-circle"></i> Free cancellation</span>
+            <span><i class="fas fa-wifi"></i> Free WiFi</span>
+            <span><i class="fas fa-parking"></i> Free parking</span>
+            <span><i class="fas fa-utensils"></i> Fine dining</span>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800" alt="Hotel Narayan Palace luxury pool view" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK PRICE COMPARISON -->
+    <section class="price-comparison">
+      <div class="container">
+        <h2>Best rates, guaranteed</h2>
+        <div class="price-cards">
+          <div class="price-card">
+            <h3>MakeMyTrip</h3>
+            <p class="price">₹1,188 <span>/night</span></p>
+            <p><i class="fas fa-check"></i> Free cancellation until Mar 20</p>
+            <a href="#" class="btn btn-secondary" onclick="return bookingPlaceholder()">See rooms</a>
+          </div>
+          <div class="price-card featured">
+            <h3>Premium Suite</h3>
+            <p class="price">₹2,499 <span>/night</span></p>
+            <p><i class="fas fa-check"></i> Breakfast included</p>
+            <a href="#booking" class="btn btn-primary">Book Direct</a>
+          </div>
+          <div class="price-card">
+            <h3>Agoda</h3>
+            <p class="price">₹1,482 <span>/night</span></p>
+            <p><i class="fas fa-check"></i> Free cancellation</p>
+            <a href="#" class="btn btn-secondary" onclick="return bookingPlaceholder()">See rooms</a>
+          </div>
+        </div>
+        <p class="disclaimer">*Prices for Sat, Mar 21 – Sun, Mar 22. More prices available.</p>
+      </div>
+    </section>
+
+    <!-- PREMIUM ROOMS GALLERY SECTION -->
+    <section id="rooms" class="rooms">
+      <div class="container">
+        <h2>Premium Rooms & Suites</h2>
+        <p class="section-subtitle">Luxury accommodations with modern amenities and stunning views</p>
+        <div class="room-grid">
+          <div class="room-item">
+            <a href="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200" data-lightbox="rooms" data-title="Executive Suite with Pool View">
+              <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=600" alt="Premium Executive Suite with pool view" loading="lazy">
+            </a>
+            <div class="room-details">
+              <h3>Executive Suite</h3>
+              <p>Pool view | King bed | Private balcony</p>
+              <p class="price">₹2,499 <span>/night</span></p>
+              <a href="#booking" class="btn btn-small">Book Now</a>
+            </div>
+          </div>
+          <div class="room-item">
+            <a href="https://images.unsplash.com/photo-1590490360182-c33d577334c1?w=1200" data-lightbox="rooms" data-title="Deluxe Room with City View">
+              <img src="https://images.unsplash.com/photo-1590490360182-c33d577334c1?w=600" alt="Deluxe Room with modern furnishings" loading="lazy">
+            </a>
+            <div class="room-details">
+              <h3>Deluxe Room</h3>
+              <p>City view | Queen bed | Work area</p>
+              <p class="price">₹1,488 <span>/night</span></p>
+              <a href="#booking" class="btn btn-small">Book Now</a>
+            </div>
+          </div>
+          <div class="room-item">
+            <a href="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=1200" data-lightbox="rooms" data-title="Family Suite with Living Area">
+              <img src="https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600" alt="Family Suite with separate living area" loading="lazy">
+            </a>
+            <div class="room-details">
+              <h3>Family Suite</h3>
+              <p>2 bedrooms | Living room | Garden view</p>
+              <p class="price">₹3,999 <span>/night</span></p>
+              <a href="#booking" class="btn btn-small">Book Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPANDED GALLERY SECTION with more premium room images -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+        <h2>Hotel Gallery</h2>
+        <p class="section-subtitle">Explore our premium facilities in HD quality</p>
+        <div class="gallery-grid">
+          <a href="https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=1200" data-lightbox="hotel" data-title="Luxury Bedroom Suite">
+            <img src="https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=400" alt="Luxury bedroom suite" loading="lazy">
+          </a>
+          <a href="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=1200" data-lightbox="hotel" data-title="Modern Bathroom">
+            <img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=400" alt="Modern bathroom with premium fittings" loading="lazy">
+          </a>
+          <a href="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=1200" data-lightbox="hotel" data-title="Swimming Pool">
+            <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=400" alt="Hotel swimming pool" loading="lazy">
+          </a>
+          <a href="https://images.unsplash.com/photo-1591088398332-8a7791972843?w=1200" data-lightbox="hotel" data-title="Lobby Lounge">
+            <img src="https://images.unsplash.com/photo-1591088398332-8a7791972843?w=400" alt="Elegant lobby lounge" loading="lazy">
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- HD QUALITY FOOD GALLERY -->
+    <section id="dining" class="dining">
+      <div class="container">
+        <h2>Fine Dining Experience</h2>
+        <p class="section-subtitle">Savor exquisite cuisine prepared by master chefs</p>
+        <div class="food-gallery">
+          <div class="food-item">
+            <a href="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200" data-lightbox="food" data-title="Grilled Vegetable Platter">
+              <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600" alt="Gourmet grilled vegetables" loading="lazy">
+            </a>
+            <div class="food-caption">Gourmet Grilled Vegetables</div>
+          </div>
+          <div class="food-item">
+            <a href="https://images.unsplash.com/photo-1544025162-d76694265947?w=1200" data-lightbox="food" data-title="Traditional Thali">
+              <img src="https://images.unsplash.com/photo-1544025162-d76694265947?w=600" alt="Rajasthani Thali" loading="lazy">
+            </a>
+            <div class="food-caption">Rajasthani Thali</div>
+          </div>
+          <div class="food-item">
+            <a href="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=1200" data-lightbox="food" data-title="Continental Breakfast">
+              <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600" alt="Continental breakfast spread" loading="lazy">
+            </a>
+            <div class="food-caption">Continental Breakfast</div>
+          </div>
+          <div class="food-item">
+            <a href="https://images.unsplash.com/photo-1513442542250-854d436a73f2?w=1200" data-lightbox="food" data-title="Indian Sweets">
+              <img src="https://images.unsplash.com/photo-1513442542250-854d436a73f2?w=600" alt="Traditional Indian sweets" loading="lazy">
+            </a>
+            <div class="food-caption">Traditional Indian Sweets</div>
+          </div>
+          <div class="food-item">
+            <a href="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=1200" data-lightbox="food" data-title="Fresh Seafood">
+              <img src="https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=600" alt="Fresh seafood platter" loading="lazy">
+            </a>
+            <div class="food-caption">Fresh Seafood Platter</div>
+          </div>
+          <div class="food-item">
+            <a href="https://images.unsplash.com/photo-1551024601-bec78ae704b2?w=1200" data-lightbox="food" data-title="Dessert Platter">
+              <img src="https://images.unsplash.com/photo-1551024601-bec78ae704b2?w=600" alt="Assorted dessert platter" loading="lazy">
+            </a>
+            <div class="food-caption">Dessert Special</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AMENITIES SECTION -->
+    <section id="amenities" class="amenities">
+      <div class="container">
+        <h2>Premium Amenities</h2>
+        <div class="amenities-grid">
+          <div class="amenity"><i class="fas fa-wifi"></i> Free High-Speed WiFi</div>
+          <div class="amenity"><i class="fas fa-swimmer"></i> Infinity Pool</div>
+          <div class="amenity"><i class="fas fa-parking"></i> Secure Parking</div>
+          <div class="amenity"><i class="fas fa-utensils"></i> Multi-Cuisine Restaurant</div>
+          <div class="amenity"><i class="fas fa-wind"></i> Air Conditioning</div>
+          <div class="amenity"><i class="fas fa-tshirt"></i> Laundry Service</div>
+          <div class="amenity"><i class="fas fa-dumbbell"></i> Fitness Center</div>
+          <div class="amenity"><i class="fas fa-spa"></i> Spa & Wellness</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS SECTION -->
+    <section id="reviews" class="reviews">
+      <div class="container">
+        <h2>Guest Reviews <span class="rating">4.3 ★ (677 reviews)</span></h2>
+        <div class="review-grid">
+          <div class="review-card">
+            <div class="stars">★★★★☆</div>
+            <p>"The premium room was exceptional! Pool view was breathtaking and the food was delicious."</p>
+            <cite>— Rahul M.</cite>
+          </div>
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>"Best hotel in Ajeetgarh. The breakfast spread is amazing with HD quality presentation."</p>
+            <cite>— Priya S.</cite>
+          </div>
+          <div class="review-card">
+            <div class="stars">★★★★★</div>
+            <p>"Luxury rooms, professional staff, and the food gallery exceeded expectations."</p>
+            <cite>— Amit K.</cite>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING FORM -->
+    <section id="booking" class="booking">
+      <div class="container booking-flex">
+        <div class="booking-text">
+          <h2>Book Your Premium Stay</h2>
+          <p>Fill in your details and we'll confirm your reservation within 15 minutes. Best rate guaranteed!</p>
+          <ul class="contact-list">
+            <li><i class="fas fa-phone-alt"></i> <a href="tel:+919950119140">099501 19140</a></li>
+            <li><i class="fas fa-envelope"></i> <a href="mailto:reservations@hnpajitgarh.com">reservations@hnpajitgarh.com</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> Shahpura Rd, near Bus Stand, Ajeetgarh, Rajasthan 332701</li>
+          </ul>
+        </div>
+        <div class="booking-form">
+          <form id="contactForm" action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Full name *</label>
+              <input type="text" id="name" name="name" required minlength="3">
+            </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone *</label>
+              <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}">
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="checkin">Check-in</label>
+                <input type="date" id="checkin" name="checkin">
+              </div>
+              <div class="form-group">
+                <label for="checkout">Check-out</label>
+                <input type="date" id="checkout" name="checkout">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="room-type">Preferred Room</label>
+              <select id="room-type" name="room-type">
+                <option value="executive">Executive Suite</option>
+                <option value="deluxe">Deluxe Room</option>
+                <option value="family">Family Suite</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Special requests</label>
+              <textarea id="message" name="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Book Premium Room <i class="fas fa-arrow-right"></i></button>
+          </form>
+          <div id="formSuccess" class="form-success hidden">✓ Thank you! We'll contact you shortly.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq" id="faq">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-grid">
+          <details>
+            <summary>What premium room types are available?</summary>
+            <p>We offer Executive Suites with pool view, Deluxe Rooms with city view, and Family Suites with garden view. All rooms feature modern amenities and HD TVs.</p>
+          </details>
+          <details>
+            <summary>Is the food really HD quality?</summary>
+            <p>Yes! Our chefs prepare restaurant-quality dishes with premium ingredients. View our food gallery for HD images of our actual preparations.</p>
+          </details>
+          <details>
+            <summary>Do you offer complimentary breakfast?</summary>
+            <p>Premium Suites include complimentary breakfast. For other rooms, breakfast is available at ₹250 per person.</p>
+          </details>
+          <details>
+            <summary>Can I see the room before booking?</summary>
+            <p>Absolutely! Visit our gallery section for HD images of all room types. You can also request a video tour.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Get in Touch</h2>
+        <div class="contact-info-grid">
+          <div>
+            <p><i class="fas fa-map-pin"></i> CRCG+M4 Ajeetgarh, Shahpura Rd, near Bus Stand</p>
+            <p><i class="fas fa-phone"></i> <a href="tel:+919950119140">099501 19140</a> <span class="whatsapp-badge"><i class="fab fa-whatsapp"></i> WhatsApp</span></p>
+            <p><i class="fas fa-globe"></i> <a href="https://hnpajitgarh.com" target="_blank">hnpajitgarh.com</a></p>
+            <p><i class="fas fa-clock"></i> Reception: 24/7 | Restaurant: 7 AM - 11 PM</p>
+            <div class="social-links">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="map-placeholder">
+            <img src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=600" alt="Hotel Narayan Palace location map" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <p>© 2025 Hotel Narayan Palace. All rights reserved.</p>
+        <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Use</a></p>
+      </div>
+      <div>
+        <p><i class="fas fa-star"></i> 3-star premium hotel | Rated 4.3/5</p>
+        <p>Luxury stays & fine dining in Ajeetgarh</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Sticky mobile buttons -->
+  <div class="sticky-mobile-buttons">
+    <a href="https://wa.me/919950119140" class="whatsapp-btn" target="_blank" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <a href="tel:+919950119140" class="call-btn" aria-label="Call us"><i class="fas fa-phone-alt"></i></a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+  <script>
+    // Lightbox configuration
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+      'albumLabel': 'Image %1 of %2',
+      'fadeDuration': 300,
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
